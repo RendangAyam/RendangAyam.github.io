@@ -15,17 +15,17 @@ const Footer = () => {
 
                     <a href="https://www.instagram.com/andrewchristian28" class="text-green-400 hover:text-green-600 transition duration-300">
                         <span class="sr-only">Instagram</span>
-                        <FontAwesomeIcon icon={faInstagram} className="text-2xl "/>
+                        <FontAwesomeIcon icon={faInstagram} className="text-2xl"/>
                     </a>
 
                     <a href="https://t.me/andrew28" class="text-green-400 hover:text-green-600 transition duration-300">
                         <span class="sr-only">Telegram</span>
-                        <FontAwesomeIcon icon={faTelegram} className="text-2xl "/>
+                        <FontAwesomeIcon icon={faTelegram} className="text-2xl"/>
                     </a>
 
                     <a href="https://github.com/RendangAyam" class="text-green-400 hover:text-green-600 transition duration-300">
                         <span class="sr-only">GitHub</span>
-                        <FontAwesomeIcon icon={faGithub} className="text-2xl "/>
+                        <FontAwesomeIcon icon={faGithub} className="text-2xl"/>
                     </a>
                 </div>
                 <p class="justify-center flex mt-8 text-center text-base text-green-400">

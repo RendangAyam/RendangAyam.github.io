@@ -19,15 +19,16 @@ function App() {
       <div className="text-green-400 font-semibold">
           <nav className="bg-gray-700 ">
             <div className="max-w-6xl mx-auto px-4">
-              <div className="flex justify-center">
-                <div className="flex space-x-7">
-                  <div class="hidden md:flex items-center space-x-1">
-                    <button className="py-4 px-2 text-green-400 hover:text-green-600 transition duration-300 text-md">Home</button>
-                    <button className="py-4 px-2 text-green-400 hover:text-green-600 transition duration-300 text-md">About me</button>
-                    <button className="py-4 px-2 text-green-400 hover:text-green-600 transition duration-300 text-md">Coding</button>
-                    <button className="py-4 px-2 text-green-400 hover:text-green-600 transition duration-300 text-md">Projects</button>
-                    <button className="py-4 px-2 text-green-400 hover:text-green-600 transition duration-300 text-md">Portfolio</button>
-                    <button className="py-4 px-2 text-green-400 hover:text-green-600 transition duration-300 text-md">Contact</button>
+              <div className="flex w-screen outline-black">
+                <div className="flex space-x-7 mx-64 pl-4">
+                  <div class="hidden md:flex relative space-x-1">
+                    <a className="py-4 px-2 text-green-400 hover:text-green-600 transition duration-300 text-md">Home</a>
+                    <a href="#about" className="py-4 px-2 text-green-400 hover:text-green-600 transition duration-300 text-md">About me</a>
+                    <a className="py-4 px-2 text-green-400 hover:text-green-600 transition duration-300 text-md">Coding</a>
+                    <a className="py-4 px-2 text-green-400 hover:text-green-600 transition duration-300 text-md">Projects</a>
+                    <a className="py-4 px-2 text-green-400 hover:text-green-600 transition duration-300 text-md">Write Up</a>
+                    <a className="py-4 px-2 text-green-400 hover:text-green-600 transition duration-300 text-md">Portfolio</a>
+                    <a className="py-4 px-2 text-green-400 hover:text-green-600 transition duration-300 text-md">Contact</a>
                   </div>
                 </div>
 
@@ -49,12 +50,13 @@ function App() {
                 </div>
               </div>
             </div>
-                  <div className={`${isVisible ? "block" : "hidden"}`}>
+            <div className={`${isVisible ? "block" : "hidden"}`}>
               <ul className="">
                 <li className="py-4 px-2 text-green-400 hover:text-green-600 transition duration-300 text-md">Home</li>
                 <li className="py-4 px-2 text-green-400 hover:text-green-600 transition duration-300 text-md">About me</li>
                 <li className="py-4 px-2 text-green-400 hover:text-green-600 transition duration-300 text-md">Coding</li>
                 <li className="py-4 px-2 text-green-400 hover:text-green-600 transition duration-300 text-md">Projects</li>
+                <li className="py-4 px-2 text-green-400 hover:text-green-600 transition duration-300 text-md">Write Up</li>
                 <li className="py-4 px-2 text-green-400 hover:text-green-600 transition duration-300 text-md">Portfolio</li>
                 <li className="py-4 px-2 text-green-400 hover:text-green-600 transition duration-300 text-md">Contact</li>
               </ul>
@@ -63,7 +65,7 @@ function App() {
           <div>
             <Landing />
           </div>
-          <div>
+          <div id="about">
             <About />
           </div>
           <div>
