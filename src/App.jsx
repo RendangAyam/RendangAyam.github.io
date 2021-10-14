@@ -19,7 +19,7 @@ function App() {
       <div className="text-green-400 font-semibold">
           <nav className="bg-gray-700 ">
             <div className="max-w-6xl mx-auto px-4">
-              <div className="flex w-screen outline-black">
+              <div className="flex w-screen">
                 <div className="flex space-x-7 mx-64 pl-4">
                   <div class="hidden md:flex relative space-x-1">
                     <a className="py-4 px-2 text-green-400 hover:text-green-600 transition duration-300 text-md">Home</a>
