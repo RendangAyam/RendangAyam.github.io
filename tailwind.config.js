@@ -23,7 +23,18 @@ module.exports = {
         '84': '21rem',
         '96': '24rem',
         '108': '27rem',
-        '120': '40rem'
+        '120': '40rem',
+        '144': '58rem'
+      },
+      fontSize: {
+        'xss':'0.75rem'
+      },
+      colors: {
+        'green-mold': '#558b4f',
+        'green-nav': '#16281a',
+        'green-navtext': '#7fa366',
+        'green-bg': '#335a3b',
+        'green-leaf': '#80a464',
       }
     },
   },

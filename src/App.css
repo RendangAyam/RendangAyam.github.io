@@ -40,3 +40,21 @@
 html {
   scroll-behavior: smooth;
 }
+
+.img-back-Recipemaster{
+  background-image: url("img/RecipeSS_small.png");
+  width: 25rem;
+  height: 15rem
+}
+
+.img-back-Timing{
+  background-image: url("img/timingsmall.png");
+  width: 25rem;
+  height: 15rem
+}
+
+.img-frame{
+  width: 25rem;
+  height: 15rem
+}
+
